@@ -5,6 +5,8 @@
 
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import  mapboxgl  from 'mapbox-gl'
+	
 	let accessToken = 'pk.eyJ1IjoiZW1hbnVlbGd1c3RhZnpvbiIsImEiOiJja294YndvNm8wZXBmMnBtcGFkZ3I5N3V6In0.t_4FKgw6kJSPGD4LleGWqQ';
 
 	onMount(() => {
